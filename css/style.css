@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: #300652;
+    display: block;
+}
+
+i {
+    margin-right: 15px;
+}
+
+.navbar {
+    padding-top: 2rem;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 0 18px;
+}
+
+.landing {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.socialslink:hover {
+    border: 1px solid white;
+}
+.socialslink{
+    text-align: center;
+}
+
+.social-inner {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.rightsdiv {
+    padding-top: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
