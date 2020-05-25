@@ -1,12 +1,53 @@
+/* -------------------global---------------- */
+
 body {
     font-family: 'Raleway', sans-serif;
     color: #fff;
     background-color: #300652;
 }
 
+.marginless-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* fontawesome icons */
 i {
     margin-right: 7px;
 }
+
+/* navbar */
+
+.navbar {
+    padding-top: 2rem;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 0 18px;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* main containers */
+
 .jumbotron {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -33,10 +74,12 @@ i {
     max-width: 40rem;
 }
 
-.album{
+.section-content {
     background-color: #e4e4e4;
     color: black;
 }
+
+/* default button override */
 
 .btn-outline-secondary {
     color: #300652;
@@ -49,15 +92,7 @@ i {
     border-color: #300652;
 }
 
-.project{
-    display: block;
-}
-
-.thumbnail{
-    width: 100%;
-    height: auto;
-    display: block;
-}
+/* footer */
 
 footer {
     padding-top: 3rem;
@@ -68,49 +103,13 @@ footer p {
     margin-bottom: .25rem;
 }
 
-
-.content {
-    background-color: #f1ebbb;
-    color: black;
-    height: 1000px;
-}
-
-.navbar {
-    padding-top: 2rem;
-}
-
-.navbar-brand {
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
-}
-
-.nav-item {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    padding: 0 18px;
-}
-
-.landing {
-    text-align: center;
-    padding-top: 5rem;
-}
-
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
+/* contact */
 
 .socialslink:hover {
     border: 1px solid white;
 }
-.socialslink{
+
+.socialslink {
     text-align: center;
 }
 
@@ -123,4 +122,62 @@ footer p {
     padding-top: 2rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+
+/* -------------------index.html---------------- */
+
+.content {
+    background-color: #f1ebbb;
+    color: black;
+    height: 1000px;
+}
+
+.landing {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+/* -------------------portfolio.html------------ */
+
+.project {
+    display: block;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* -------------------about.html---------------- */
+
+.avatar{
+    width: 12%;
+    height: 12%;
+    vertical-align: middle;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    transform: translate3d(0, 50%, 0);
+    -webkit-transform: translate3d(0, 50%, 0);
+    border: 0.4rem yellow;
+    border-style: groove;
+}
+
+.summary{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.accordion {
+    text-align: center;
+}
+
+.skill{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 5rem;
+    height: 5rem;
 }
